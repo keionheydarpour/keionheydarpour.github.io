@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+html, body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.main{
+  font-family: Bebas Neue;
+  font-size: 14px;
+  font-weight: normal;
+  height: 100%;
+  background: url(../img/landscape/DSCF0883.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.landscape{
+  font-family: Bebas Neue;
+  font-size: 14px;
+  font-weight: normal;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about{
+  font-family: Bebas Neue;
+  font-size: 14px;
+  font-weight: normal;
+  height: 100%;
+  scroll-behavior:none;
+  background: url(../img/_DSF2521-2.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contact {
+  font-family: Bebas Neue;
+  font-weight: normal;
+  height: 100%;
+  background: url("../img/landscape/goose.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header{
+  padding: 15px 35px;
+  display: inline-block;
+  width: 100%;
+}
+.headerportrait{
+  padding: 15px 35px;
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+}
+.logo{
+  margin-top: 0.2%;
+  float: left;
+  width: 100px;
+}
+img{
+  max-width: 100%;
+}
+.menu{
+  float: right;
+}
+.menu ul li{
+  display: inline-block;
+  float: left;
+  margin-top: 4%;
+}
+.menu ul li a{
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #100;
+  color: #fff;
+  font-size: 30px;
+  padding-right: 60px;
+}
+.menu ul li a:hover{
+  opacity: 50%;
+}
+.name{
+  width: 100%;
+  margin-top: 400px;
+  text-align: left;
+  margin-left: 20px;
+  padding-bottom: 600px;
+}
+.name h5{
+  color: black;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+.name h1{
+  color: #fff;
+  font-size: 90px;
+  line-height:88px;
+  letter-spacing: 5px;
+}
+.aboutme{
+  width:60%;
+  margin-top: 15vh;
+  margin-left: 20%;
+  padding-bottom: 55vh;
+}
+.aboutme h5{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0 #100;
+  padding-bottom: 5%;
+}
+.aboutme blockquote{
+  text-align: left;
+  font-family: OpenSans-Light;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0 #100;
+}
+.landscapetext h1{
+font-family: Bebas Neue;
+width: 100%;
+font-size: 600%;
+float: center;
+text-align: center;
+margin-top: 5%;
+}
+.four5 ul li{
+  float: center;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  width:27%;
+  padding: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+.four5 ul li:hover{
+  opacity: 0.7;
+}
+.four5landscape ul li{
+  display: inline-block;
+  text-decoration: none;
+  width: 27%;
+  padding: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+#.sixteen9landscape{
+  display: inline-block;
+  float: center;
+  text-decoration: none;
+  width:auto%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.contactbox{
+  float: right;
+  margin-right: 35%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.contactbox h5{
+  float: left;
+  color: white;
+  font-size: 50px;
+  padding-left: 1.5%
+}
+
+.contactbox label{
+  color: white;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 20px;
+}
