@@ -30,8 +30,7 @@ html, body{
   font-size: 14px;
   font-weight: normal;
   height: 100%;
-  scroll-behavior:none;
-  background: url(../img/_DSF2521-2.jpg) no-repeat;
+  background-image: url("../img/portrait/keion2crop.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -83,7 +82,7 @@ img{
 }
 .name{
   width: 100%;
-  margin-top: 400px;
+  margin-top: 15vw;
   text-align: left;
   margin-left: 20px;
   padding-bottom: 600px;
@@ -100,18 +99,19 @@ img{
   letter-spacing: 5px;
 }
 .aboutme{
-  width:60%;
-  margin-top: 15vh;
-  margin-left: 20%;
-  padding-bottom: 55vh;
+  float: left;
+  width:40%;
+  margin-top: 4vh;
+  margin-left: 5%;
+  padding-bottom: 5vh;
 }
 .aboutme h5{
-  text-align: center;
+  text-align: left;
   color: white;
-  font-size: 40px;
+  font-size: 60px;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0 #100;
-  padding-bottom: 5%;
+  padding-bottom: 1vh;
 }
 .aboutme blockquote{
   text-align: left;
@@ -121,6 +121,22 @@ img{
   letter-spacing: 1px;
   text-shadow: 1px 1px 0 #100;
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: white;
+  color: black;
+  margin-top: 20px;
+}
+
 .landscapetext h1{
 font-family: Bebas Neue;
 width: 100%;
@@ -153,7 +169,7 @@ margin-top: 5%;
   margin-top: 5%;
   margin-bottom: 3%;
 }
-#.sixteen9landscape{
+/*.sixteen9landscape{
   display: inline-block;
   float: center;
   text-decoration: none;
@@ -161,7 +177,7 @@ margin-top: 5%;
   margin-left: 3%;
   margin-right: 3%;
 }
-
+*/
 .contactbox{
   float: right;
   margin-right: 35%;
