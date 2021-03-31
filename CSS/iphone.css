@@ -8,9 +8,12 @@ html, body{
   height: 100%;
   overflow: hidden;
 }
+.sidebar{
+  display: none;
+}
 .main{
   font-family: Bebas Neue;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: normal;
   height: 100%;
   background: url(../img/landscape/DSCF0883.jpg) no-repeat;
@@ -43,9 +46,10 @@ html, body{
   background-attachment: fixed;
 }
 
-header{
+.header{
   padding: 15px 35px;
-  height: auto;
+  display: inline-block;
+  width: 100%;
 }
 .headerportrait{
   padding: 15px 35px;
@@ -53,32 +57,32 @@ header{
   width: 100%;
   background-color: black;
 }
-.logo img{
+.logo{
   margin-top: 0.2%;
-  margin-left: 0px;
   float: left;
   width: 100px;
 }
 img{
   max-width: 100%;
 }
-
-.menu .container{
-  display: inline-block;
+.menu{
   float: right;
-  margin-top: 0.20%;
 }
-.menu .container a{
+.menu ul li{
+  display: inline-block;
+  float: left;
+  margin-top: 4%;
+}
+.menu ul li a{
   text-decoration: none;
   text-shadow: 1px 1px 0 #100;
   color: #fff;
   font-size: 30px;
   padding-right: 60px;
 }
-.menu .container a:hover{
+.menu ul li a:hover{
   opacity: 50%;
 }
-
 .name{
   width: 100%;
   margin-top: 15vw;
@@ -99,9 +103,9 @@ img{
 }
 .aboutme{
   float: left;
-  width:100%;
-  margin-top: 10rem;
-  margin-left: 2.5rem;
+  width:40%;
+  margin-top: 4vh;
+  margin-left: 5%;
   padding-bottom: 5vh;
 }
 .aboutme h5{
@@ -113,7 +117,6 @@ img{
   padding-bottom: 1vh;
 }
 .aboutme blockquote{
-  width: 50%;
   text-align: left;
   font-family: OpenSans-Light;
   color: #fff;
@@ -223,94 +226,8 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container1 {
+.container {
   margin-top: 50px;
   border-radius: 5px;
   padding: 20px;
-}
-
-@media only screen and (max-width: 900px){
-  body{ margin: 0}
-  header{ padding: 0.01px;}
-  .logo img{
-    float: left;
-    display: inline-block;
-    margin-left: 0.6rem;
-    margin-top: 1rem;
-    width: 4rem;
-  }
-  header .menu{
-    height: auto;
-  }
-  .menu .container{
-    padding: 0;
-    position: absolute;
-    width: 70%;
-    margin-top: 1rem;
-    margin-left: 6rem;
-    display: flex;
-    list-style-type: none;
-    justify-content: left;
-    overflow: scroll;
-  }
-  .menu .container a{
-    text-shadow: none;
-    padding: 0px 0.6rem;
-    font-size: 2rem;
-    text-decoration: none;
-    color: white;
-  }
-  .name{
-    text-align: center;
-  }
-  .name h5{
-    margin-top: 15rem;
-    text-align: center;
-    margin-right: 2.7rem;
-
-  }
-  .name h1{
-    text-align: center;
-    margin-right: 2.7rem;
-    font-size: 70px;
-    letter-spacing: 0.1rem;
-  }
-  .aboutme{
-    margin-top: 5rem;
-    float: center;
-    width: 100%;
-    margin-left: 0px;
-  }
-  .aboutme h5{
-    text-align: center;
-  }
-  .aboutme blockquote{
-    margin-left: 3.5rem;
-    text-align: justify;
-    width: 70%;
-    font-size: 1rem;
-    letter-spacing: 0.01rem;
-  }
-  .fa{
-    margin-left: 42%;
-  }
-  .about{
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: 65%;
-  }
-  .about header{
-    background-color: black;
-  }
-  .contactbox{
-    float: right;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    margin-right: 0;
-  }
-  .contactbox h5{
-    width: 95%;
-    display: block;
-    text-align: center;
-  }
 }
