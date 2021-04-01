@@ -53,14 +53,14 @@ padding-top: 5%;
 padding-bottom: 5%
 }
 .four5 {
-  padding-top: 10%;
+  padding-top: 0%;
   display: grid;
   grid-template-columns: repeat(3,25%);
   justify-content: center;
   align-content: center;
   grid-gap: 5%;
   height: 100%;
-  padding-bottom: 15%;
+  padding-bottom: 26%;
 }
 .four5 img{border: 3px solid black;}
 
@@ -102,7 +102,7 @@ padding-bottom: 5%
 }
 */
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 800px){
   body{ margin: 0}
   header{ padding: 0.01px;}
   .logo img{
@@ -135,12 +135,13 @@ padding-bottom: 5%
     color: white;
   }
   .landscapetext{
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
   }
   .four5{
     grid-template-columns: repeat(2,40%);
     padding-bottom: 15rem;
     grid-gap: 3%;
+    padding-top: 0;
   }
   .four5 img{
     border: 3px solid black;
@@ -148,5 +149,12 @@ padding-bottom: 5%
   }
   #lightbox img{
     width: 80%;
+  }
+}
+
+@-moz-document url-prefix(){
+  .four5{
+    padding-top: 12%;
+    padding-bottom: 15%;
   }
 }

@@ -231,7 +231,7 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 900px){
   body{ margin: 0}
-  header{ padding: 0.01px;}
+  header{ padding: 0.02px;}
   .logo img{
     float: left;
     display: inline-block;
@@ -261,22 +261,21 @@ input[type=submit]:hover {
     color: white;
   }
   .name{
+    margin-left: 0;
     text-align: center;
   }
   .name h5{
     margin-top: 15rem;
     text-align: center;
-    margin-right: 2.7rem;
 
   }
   .name h1{
     text-align: center;
-    margin-right: 2.7rem;
     font-size: 70px;
     letter-spacing: 0.1rem;
   }
   .aboutme{
-    margin-top: 5rem;
+    margin-top: 8rem;
     float: center;
     width: 100%;
     margin-left: 0px;
@@ -285,6 +284,7 @@ input[type=submit]:hover {
     text-align: center;
   }
   .aboutme blockquote{
+    color: white;
     margin-left: 3.5rem;
     text-align: justify;
     width: 70%;
@@ -297,7 +297,7 @@ input[type=submit]:hover {
   .about{
   background-size: cover;
   background-attachment: scroll;
-  background-position: 65%;
+  background-position: 68%;
   }
   .about header{
     background-color: black;
@@ -312,5 +312,11 @@ input[type=submit]:hover {
     width: 95%;
     display: block;
     text-align: center;
+  }
+}
+
+@-moz-document url-prefix(){
+  .name h5{
+
   }
 }
