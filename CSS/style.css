@@ -230,7 +230,7 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 900px){
-  body{ margin: 0}
+  body{ margin: 0;}
   header{ padding: 0.02px;}
   .logo img{
     float: left;
@@ -275,7 +275,7 @@ input[type=submit]:hover {
     letter-spacing: 0.1rem;
   }
   .aboutme{
-    margin-top: 8rem;
+    margin-top: 6.5rem;
     float: center;
     width: 100%;
     margin-left: 0px;
@@ -314,7 +314,21 @@ input[type=submit]:hover {
     text-align: center;
   }
 }
-
+@media only screen and (max-height: 400px){
+  .name h5{
+    margin-top: 8rem;
+  }
+  .aboutme {
+    margin-top: 2rem;
+  }
+  .aboutme blockquote{
+    text-align: left;
+    width: 90%;
+  }
+  .fa{
+    margin-left: 45%;
+  }
+}
 @-moz-document url-prefix(){
   .name h5{
 
