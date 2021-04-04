@@ -95,6 +95,17 @@ padding-bottom: 5%
 }
 
 @media only screen and (max-width: 800px){
+  ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 100);
+  box-shadow: 0 0 0.5px rgba(0, 0, 0, .5);
+}
   body{ margin: 0}
   header{ padding: 0.01px;}
   .logo img{
